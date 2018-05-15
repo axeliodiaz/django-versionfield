@@ -1,6 +1,6 @@
 from django import forms
-from version import Version
-from constants import DEFAULT_NUMBER_BITS
+from .version import Version
+from .constants import DEFAULT_NUMBER_BITS
 from .utils import convert_version_string_to_int
 
 
