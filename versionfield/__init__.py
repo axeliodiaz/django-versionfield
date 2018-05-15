@@ -2,7 +2,7 @@ from django.db import models
 from .constants import DEFAULT_NUMBER_BITS
 from .version import Version
 from .utils import convert_version_string_to_int, convert_version_int_to_string
-import .forms
+import versionfield import forms
 
 
 class VersionField(models.PositiveIntegerField):
